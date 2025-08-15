@@ -5,6 +5,7 @@ import api from "../utils/api";
 import { useAuth } from "../context/AuthContext";
 
 export default function Home() {
+  console.log("API URL at runtime:", process.env.NEXT_PUBLIC_API_URL);
   const [posts, setPosts] = useState([]);
   const { user } = useAuth();
 
@@ -20,6 +21,7 @@ export default function Home() {
 
   return (
     <>
+    
       <Navbar />
       <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col items-center">
         <h1 className="text-4xl font-bold mb-6 text-center text-pink-500">Blog Posts</h1>
