@@ -11,16 +11,30 @@ export default function Signup() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [err, setErr] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const submit = async (e) => {
     e.preventDefault();
     setErr("");
+    setLoading(true);
+
     try {
-      const res = await api.post("/auth/signup", { username, email, password });
+      const res = await api.post(
+        "/auth/signup",
+        {
+          username: username.trim(),
+          email: email.trim(),
+          password: password.trim(),
+        },
+        { withCredentials: true } // <-- important for browser auth
+      );
+
       login(res.data);
       router.push("/");
     } catch (error) {
       setErr(error.response?.data?.error || "Signup failed");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -68,9 +82,12 @@ export default function Signup() {
 
             <button
               type="submit"
-              className="w-full bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 rounded-lg shadow-md transition-all duration-200"
+              disabled={loading}
+              className={`w-full bg-pink-400 hover:bg-pink-500 text-white font-semibold py-2 rounded-lg shadow-md transition-all duration-200 ${
+                loading ? "opacity-70 cursor-not-allowed" : ""
+              }`}
             >
-              Sign Up
+              {loading ? "Signing Up..." : "Sign Up"}
             </button>
           </form>
         </div>
