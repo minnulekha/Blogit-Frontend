@@ -71,14 +71,14 @@ frontend/             # Vercel deployment config (if hosted)
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### Blog It
 
-<img width="900" height="568" alt="Home Page" src="https://github.com/user-attachments/assets/81d82d13-55d3-4857-8264-6b4d48cfeb7f" />  
-<img width="900" height="568" alt="SignUp" src="https://github.com/user-attachments/assets/61aca337-a2d6-4c4a-b696-ace98b5133e7" />
-<img width="900" height="568" alt="Login" src="https://github.com/user-attachments/assets/4b63f88e-0f1d-4456-8894-b8ac1889e8c2" />
-<img width="900" height="568" alt="Create Post" src="https://github.com/user-attachments/assets/d01757a4-8b47-44cf-a333-16055d5c2b05" />
-<img width="900" height="568" alt="Read Post" src="https://github.com/user-attachments/assets/a64cbbb1-1e36-44b3-8c69-106521eacba6" />
-<img width="900" height="568" alt="Delete Post" src="https://github.com/user-attachments/assets/3a44c7db-3ef0-49f1-a176-6bc85871096e" />
+<img width="800" height="568" alt="Home Page" src="https://github.com/user-attachments/assets/81d82d13-55d3-4857-8264-6b4d48cfeb7f" />  
+<img width="800" height="568" alt="SignUp" src="https://github.com/user-attachments/assets/61aca337-a2d6-4c4a-b696-ace98b5133e7" />
+<img width="800" height="568" alt="Login" src="https://github.com/user-attachments/assets/4b63f88e-0f1d-4456-8894-b8ac1889e8c2" />
+<img width="800" height="568" alt="Create Post" src="https://github.com/user-attachments/assets/d01757a4-8b47-44cf-a333-16055d5c2b05" />
+<img width="800" height="568" alt="Read Post" src="https://github.com/user-attachments/assets/a64cbbb1-1e36-44b3-8c69-106521eacba6" />
+<img width="800" height="568" alt="Delete Post" src="https://github.com/user-attachments/assets/3a44c7db-3ef0-49f1-a176-6bc85871096e" />
 
 ---
 
