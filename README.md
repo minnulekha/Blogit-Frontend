@@ -30,3 +30,6 @@ This is the frontend of **BlogIt**, a blogging platform. It provides a user inte
 ```bash
 git clone https://github.com/minnulekha/BlogIt-Frontend.git
 
+📸 Screenshots
+<img width="1366" height="768" alt="Home Page" src="https://github.com/user-attachments/assets/81d82d13-55d3-4857-8264-6b4d48cfeb7f" />
+
