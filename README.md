@@ -88,11 +88,3 @@ frontend/             # Vercel deployment config (if hosted)
 ## 📜 License
 
 This project is licensed under the **MIT License**.
-
-```
-
----
-
-✨ When you’re ready, I can also prepare a **separate `README.md` for your backend** so both parts of BlogIt look equally professional.  
-Do you want me to also add a **"Live Demo" section** at the top if your frontend is deployed on Vercel/Netlify?
-```
