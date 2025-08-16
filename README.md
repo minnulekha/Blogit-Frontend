@@ -73,7 +73,7 @@ frontend/             # Vercel deployment config (if hosted)
 
 ### Blog It
 
-## Home Page
+#### Home Page
 <img width="800" height="568" alt="Home Page" src="https://github.com/user-attachments/assets/81d82d13-55d3-4857-8264-6b4d48cfeb7f" />  
 <img width="800" height="568" alt="SignUp" src="https://github.com/user-attachments/assets/61aca337-a2d6-4c4a-b696-ace98b5133e7" />
 <img width="800" height="568" alt="Login" src="https://github.com/user-attachments/assets/4b63f88e-0f1d-4456-8894-b8ac1889e8c2" />
